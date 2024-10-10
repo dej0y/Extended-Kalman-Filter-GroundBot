@@ -184,6 +184,6 @@ def main(input_file, output_file):
 
 
 if __name__ == "__main__":
-    input_file = "/home/dejoy/programming/EKF/Data/Input.txt"  # Input file with sensor measurements
+    input_file = "/Data/Input.txt"  # Input file path
     output_file = "results.txt"  # Output file for estimated results
     main(input_file, output_file)
