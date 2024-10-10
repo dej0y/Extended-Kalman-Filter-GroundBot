@@ -40,9 +40,8 @@ This project requires Python 3.10.12 and the following libraries:
 You can install the required library using:
 
    ```bash
-
-pip install numpy
-pip install math
+    pip install numpy
+    pip install math
    ```
 
 ## How to Run
