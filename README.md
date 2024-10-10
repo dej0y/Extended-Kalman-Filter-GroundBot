@@ -30,6 +30,8 @@ est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
 ```
 4.53271 0.279 -0.842172 53.1339 4.29136 0.215312 2.28434 0.226323
 ```
+When collecting results, placeholders (None) are used for Lidar values in Radar entries to maintain consistent formatting.
+
 ## Requirements
 
 This project requires Python 3.10.12 and the following libraries:
