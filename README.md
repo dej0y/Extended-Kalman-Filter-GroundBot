@@ -30,21 +30,34 @@ est_px est_py est_vx est_vy meas_px meas_py gt_px gt_py gt_vx gt_vy
 ```
 4.53271 0.279 -0.842172 53.1339 4.29136 0.215312 2.28434 0.226323
 ```
+## Requirements
+
+This project requires Python 3.10.12 and the following libraries:
+
+    numpy
+    math
+
+You can install the required library using:
+
+   ```bash
+
+pip install numpy
+   ```
 
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/dej0y/Extended-Kalman-Filter-GroundBot
+   cd Extended-Kalman-Filter-GroundBot
    ```
 
-2. Ensure you have Python 3.10 installed. No additional libraries are required beyond the standard library.
+2. Ensure you have Python 3.10.12 installed. No additional libraries are required beyond the standard library.
 
-3. Place your input file (e.g., `Input.txt`) in the repository directory.
+3. Place your input file (e.g., `Input.txt`) in the Data directory.
 
 4. Run the program:
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 5. The output will be saved in a file named `results.txt`.
