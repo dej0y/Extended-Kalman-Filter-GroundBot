@@ -42,6 +42,7 @@ You can install the required library using:
    ```bash
 
 pip install numpy
+pip install math
    ```
 
 ## How to Run
