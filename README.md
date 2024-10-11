@@ -53,13 +53,11 @@ You can install the required library using:
    cd Extended-Kalman-Filter-GroundBot
    ```
 
-2. Ensure you have Python 3.10.12 installed. No additional libraries are required beyond the standard library.
+2. Place your input file (e.g., `Input.txt`) in the Data directory.
 
-3. Place your input file (e.g., `Input.txt`) in the Data directory.
-
-4. Run the program:
+3. Run the program:
    ```bash
    python3 main.py
    ```
 
-5. The output will be saved in a file named `results.txt`.
+4. The output will be saved in a file named `results.txt`.
